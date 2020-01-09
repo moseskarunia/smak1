@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  position: relative;
+}
+
+.bg {
+  object-fit: fill;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav {
+  position: fixed;
+  z-index: 1;
+  top:0;
+  right:0;
+  left:0;
+  padding: 0 16px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+nav ul li{
+  padding: 32px 16px;
+  list-style-type: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.separator{
+  background-color: white;
+  width: 2px;
+  margin: 24px 16px;
+}
+
+.yellow-text{
+  color: #F8EE06;
+}
+
+.content{
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-left{
+  right: 50%;
+  left: 64px;
+}
+
+.smak1-logo{
+  width: 20%;
+  object-fit: contain;
+  margin-bottom: 32px;
+}
+
+p.onboarding{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 32px;
+}
+
+button {
+  text-transform: uppercase;
+  background: #2B2D7C;
+  border: none;
+  padding: 16px 32px;
+  font-weight: 700;
+  font-size: 1.5em;
+  border-radius: 16px;
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.25);
+}
+
+.title-box-left {
+  position: absolute;
+  margin-left: -32px;
+  padding-bottom: 8px;
+  transform: rotate(-90deg);
+}
+
+.underline {
+  margin: 8px 8px 0 8px;
+  border-bottom: 4px solid #F8EE06;
+}
+
+.title-left {
+  font-size:2em;
+}
+
+.content-par-left {
+  margin-left: 96px;
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+.title-right {
+  transform: rotate(90deg);
+}
