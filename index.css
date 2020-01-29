@@ -3,6 +3,7 @@
   padding: 0;
   font-family: 'Lato';
   color: white;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -81,13 +82,22 @@ a {
 .content-enroll{
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: flex-start;
   position: absolute;
-  top: 64px;
-  left: 64px;
-  right: 0;
-  bottom: 0;
+  padding: 64px;
 }
+
+.content-career{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: right;
+  position: absolute;
+  padding: 64px;
+}
+
 
 .content-left{
   right: 50%;
@@ -131,10 +141,6 @@ button {
   transform: rotate(-90deg);
 }
 
-.title-box-enroll{
-  
-}
-
 .title-box-right {
   position: absolute;
   right: 0;
@@ -152,21 +158,32 @@ button {
   border-bottom: 4px solid #F8EE06;
 }
 
+.enroll-underline {
+  margin: 8px 8px 8px 0;
+  border-bottom: 4px solid #F8EE06;
+}
+
+.career-underline {
+  margin: 8px 0 8px 8px;
+  border-bottom: 4px solid #F8EE06;
+}
+
 .content-par-left {
   margin-left: 96px;
-  line-height: 1.5em;
-  font-size: 1.5em;
 }
 
 .content-par-right {
   margin-right: 96px;
-  line-height: 1.5em;
+}
+
+.enroll-career-paragraph {
   font-size: 1.5em;
 }
 
 .enroll{
+  overflow: auto;
   position: relative;
-  width: 50%;
+  width: 50%;  
   float: left;
 }
 
@@ -174,4 +191,45 @@ button {
   position: relative;
   width: 50%;
   float: right;
+}
+
+.enroll-titlebox{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-bottom: 16px;
+}
+
+.career-titlebox{
+  display: flex;
+  z-index: 3;
+  flex-direction: column;
+  justify-content: right;
+  margin-bottom: 16px;
+}
+
+.small-button{
+  margin-top: 16px;
+  font-size: 1em;
+}
+
+.footer{
+  display: flex;
+  padding: 32px 0;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: #2B2D7C;
+  height: max-content;
+}
+
+.smak1-logo-small{
+  width: 50px;
+  object-fit: contain;
+  margin-bottom: 32px;
+}
+
+p {
+  line-height: 1.5em;
+  font-size: 1.5em;
 }
