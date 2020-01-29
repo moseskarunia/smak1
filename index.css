@@ -78,9 +78,26 @@ a {
   flex-direction: column;
 }
 
+.content-enroll{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  top: 64px;
+  left: 64px;
+  right: 0;
+  bottom: 0;
+}
+
 .content-left{
   right: 50%;
   left: 64px;
+}
+
+.content-right{
+  left: 50%;
+  right: 64px;
+  text-align: right;
 }
 
 .smak1-logo{
@@ -114,13 +131,25 @@ button {
   transform: rotate(-90deg);
 }
 
+.title-box-enroll{
+  
+}
+
+.title-box-right {
+  position: absolute;
+  right: 0;
+  margin-right: -64px;
+  padding-bottom: 8px;
+  transform: rotate(90deg);
+}
+
+.title {
+  font-size:2em;
+}
+
 .underline {
   margin: 8px 8px 0 8px;
   border-bottom: 4px solid #F8EE06;
-}
-
-.title-left {
-  font-size:2em;
 }
 
 .content-par-left {
@@ -129,6 +158,20 @@ button {
   font-size: 1.5em;
 }
 
-.title-right {
-  transform: rotate(90deg);
+.content-par-right {
+  margin-right: 96px;
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+.enroll{
+  position: relative;
+  width: 50%;
+  float: left;
+}
+
+.career{
+  position: relative;
+  width: 50%;
+  float: right;
 }
