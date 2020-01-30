@@ -7,3 +7,11 @@
   background-color: #2B2D7C;
   height: max-content;
 }
+
+.footer-text-margin-bottom-16px {
+  margin-bottom: 16px;
+}
+
+.footer-text-margin-bottom-64px {
+  margin-bottom: 64px;
+}
