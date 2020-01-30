@@ -1,0 +1,41 @@
+.content{
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-career{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  text-align: right;
+  position: absolute;
+  padding: 64px;
+}
+
+.content-enroll{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: absolute;
+  padding: 64px;
+}
+
+.content-left{
+  right: 50%;
+  left: 64px;
+}
+
+.content-right{
+  left: 50%;
+  right: 64px;
+  text-align: right;
+}

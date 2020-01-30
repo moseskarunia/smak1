@@ -1,0 +1,11 @@
+.smak1-logo{
+  width: 20%;
+  object-fit: contain;
+  margin-bottom: 32px;
+}
+
+.smak1-logo-small{
+  width: 50px;
+  object-fit: contain;
+  margin-bottom: 32px;
+}

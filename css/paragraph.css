@@ -1,0 +1,23 @@
+p {
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+.content-par-left {
+  margin-left: 96px;
+}
+
+.content-par-right {
+  margin-right: 96px;
+}
+
+.enroll-career-paragraph {
+  font-size: 1.5em;
+}
+
+p.onboarding{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 2em;
+  margin-bottom: 32px;
+}
