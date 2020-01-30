@@ -1,0 +1,28 @@
+nav {
+  position: fixed;
+  z-index: 1;
+  top:0;
+  right:0;
+  left:0;
+  padding: 0 16px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+nav ul li{
+  padding: 32px 16px;
+  list-style-type: none;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.separator{
+  background-color: white;
+  width: 2px;
+  margin: 24px 16px;
+}

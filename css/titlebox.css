@@ -1,0 +1,29 @@
+.enroll-titlebox{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-bottom: 16px;
+}
+
+.career-titlebox{
+  display: flex;
+  z-index: 3;
+  flex-direction: column;
+  justify-content: right;
+  margin-bottom: 16px;
+}
+
+.title-box-left {
+  position: absolute;
+  margin-left: -32px;
+  padding-bottom: 8px;
+  transform: rotate(-90deg);
+}
+
+.title-box-right {
+  position: absolute;
+  right: 0;
+  margin-right: -64px;
+  padding-bottom: 8px;
+  transform: rotate(90deg);
+}

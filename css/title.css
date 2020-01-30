@@ -1,0 +1,18 @@
+.title {
+  font-size:2em;
+}
+
+.underline {
+  margin: 8px 8px 0 8px;
+  border-bottom: 4px solid #F8EE06;
+}
+
+.enroll-underline {
+  margin: 8px 8px 8px 0;
+  border-bottom: 4px solid #F8EE06;
+}
+
+.career-underline {
+  margin: 8px 0 8px 8px;
+  border-bottom: 4px solid #F8EE06;
+}
