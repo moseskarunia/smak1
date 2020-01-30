@@ -10,10 +10,10 @@ p.onboarding{
   margin-bottom: 32px;
 }
 
-p.full-left {
+.full-left {
   margin-left: 96px;
 }
 
-p.full-right {
+.full-right {
   margin-right: 96px;
 }
