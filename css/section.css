@@ -1,21 +1,17 @@
-.section {
-  position: relative;
-}
-
 a {
   color: inherit;
   text-decoration: inherit;
 }
 
-.enroll{
-  overflow: auto;
+.section {
   position: relative;
+}
+
+.section-half{
   width: 50%;  
   float: left;
 }
 
-.career{
-  position: relative;
-  width: 50%;
+.section-half-right{
   float: right;
 }

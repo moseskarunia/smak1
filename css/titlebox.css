@@ -1,29 +1,29 @@
-.enroll-titlebox{
+.titlebox-half{
   display: flex;
   flex-direction: column;
-  justify-content: left;
   margin-bottom: 16px;
+  justify-content: left;
+  
 }
 
-.career-titlebox{
-  display: flex;
-  z-index: 3;
-  flex-direction: column;
+.titlebox-half-right{
   justify-content: right;
   margin-bottom: 16px;
 }
 
-.title-box-left {
+.titlebox-full {
   position: absolute;
-  margin-left: -32px;
   padding-bottom: 8px;
+  margin-left: -32px;
+}
+
+.titlebox-full-left {
   transform: rotate(-90deg);
 }
 
-.title-box-right {
-  position: absolute;
+.titlebox-full-right{
   right: 0;
+  margin-left: 0;
   margin-right: -64px;
-  padding-bottom: 8px;
   transform: rotate(90deg);
 }
