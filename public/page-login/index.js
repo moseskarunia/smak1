@@ -9,7 +9,8 @@ function signUp() {
     return;
   }
 
-  _validateEmailPassword(email, password);
+  const result = _validateEmailPassword(email, password);
+  if (!result) return;
 
   if (password !== retypedPassword) {
     alert('Password and retyped password mismatch');
@@ -50,16 +51,18 @@ function signIn() {
 function _validateEmailPassword(email, password) {
   if (email.indexOf('@') === -1 || email.indexOf('') === -1) {
     alert('Email need to include both @ and .');
-    return;
+    return false;
   }
 
   if (email.length <= 5) {
     alert('Email is impossibly too short');
-    return;
+    return false;
   }
 
   if (password.length < 8) {
     alert('Minimum length for password is 8 characters');
-    return;
+    return false;
   }
+
+  return true;
 }
