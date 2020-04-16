@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SMAK 1 Login Page</title>
+</head>
+
+<body style="display:flex; flex-direction: column;">
+  <h1>SignUp</h1>
+  <input id="sign-up-name" placeholder="Insert Name">
+  <input type="email" id="sign-up-email" placeholder="Enter email">
+  <input type="password" id="sign-up-password" placeholder="Enter password">
+  <input type="password" id="sign-up-retyped-password" placeholder="Retype password">
+  <button onclick="signUp()">Sign Up</button>
+
+  <h1>SignIn</h1>
+  <input type="email" id="sign-in-email" placeholder="Enter email">
+  <input type="password" id="sign-in-password" placeholder="Enter password">
+  <button onclick="signIn()">Sign In</button>
+</body>
+
+
+<!--The core Firebase JS SDK is always required and must be listed first-->
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-app.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.8.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyD5je_qJckAVxNi2ee9P-56Jd3eDptrRqQ",
+    authDomain: "smak1test-999.firebaseapp.com",
+    databaseURL: "https://smak1test-999.firebaseio.com",
+    projectId: "smak1test-999",
+    storageBucket: "smak1test-999.appspot.com",
+    messagingSenderId: "87161271695",
+    appId: "1:87161271695:web:12623a55396614a89107fa",
+    measurementId: "G-H0MMN49BRL"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+<script type="text/javascript" src="index.js"></script>
+
+</html>
