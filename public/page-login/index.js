@@ -4,7 +4,8 @@ function signUp() {
   const password = document.getElementById('sign-up-password').value;
   const retypedPassword = document.getElementById('sign-up-retyped-password').value;
 
-  if (!name || name.length < 3) {
+  // Javascript falsy value
+  if (name === null || name === undefined || name.length < 3) {
     alert('Minimum length for name is 3 characters');
     return;
   }
@@ -36,7 +37,9 @@ function signUp() {
 function signIn() {
   const email = document.getElementById('sign-in-email').value;
   const password = document.getElementById('sign-in-password').value;
-  _validateEmailPassword(email, password);
+
+  const result = _validateEmailPassword(email, password);
+  if (!result) return;
 
   firebase.auth().signInWithEmailAndPassword(email, password)
     .then(function (data) {
@@ -49,7 +52,7 @@ function signIn() {
 }
 
 function _validateEmailPassword(email, password) {
-  if (email.indexOf('@') === -1 || email.indexOf('') === -1) {
+  if (email.indexOf('@') === -1 || email.indexOf('.') === -1) {
     alert('Email need to include both @ and .');
     return false;
   }
