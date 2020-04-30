@@ -15,3 +15,12 @@
 .footer-text-margin-bottom-64px {
   margin-bottom: 64px;
 }
+
+@media (max-width:600px){
+  .footer {
+    padding: 16px;
+    width: auto;
+    font-size: 0.75em;
+    text-align: center;
+  }
+}
