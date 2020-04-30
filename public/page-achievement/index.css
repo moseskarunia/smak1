@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato';
+  color: white;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background: url('../assets/bg_achievement.jpg') top right no-repeat; 
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+.overlay {
+  background-color: rgba(0,0,0, 0.75);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+}
+
+.center-scrollable-area {
+  text-align: start;
+  z-index: 1;
+  position: absolute;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%;
+  scroll-behavior: smooth;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+h1 {
+  color: white;
+}
+
+.title {
+  font-size:2em;
+}
+
+.title-underline {
+  margin: 8px 8px 8px 0;
+  border-bottom: 4px solid #F8EE06;
+}
+
+.titlebox-half{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  justify-content: left;
+}
+
+p {
+  margin-left: 16px;
+  margin-bottom: 16px;
+  margin-right: 16px;
+}
+
+.main-header-picture{
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+.outer-titlebox{
+  display: flex;
+  flex-direction: row;
+}
+
+.icon-arrow-back{
+  width:36px;
+  height:36px;
+  margin-right: 16px;
+}
