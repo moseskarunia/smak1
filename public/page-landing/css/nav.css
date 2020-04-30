@@ -26,3 +26,42 @@ nav ul li{
   width: 2px;
   margin: 24px 16px;
 }
+
+.hamburger-menu-button{
+  display: none;
+}
+
+@media(max-width: 600px){
+  nav {
+    padding: 16px;
+  }
+
+  nav ul {
+    display: none;
+  }
+  
+  nav ul li {
+    display: none;
+  }
+
+  .separator {
+    display: none;
+  }
+
+  .hamburger-menu-button{
+    float: right;
+    display: block;
+    position: relative;
+    background-color: none;
+    background: none;
+    border: none;
+    padding: 8px 8px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .hamburger-icon{
+    width: 24px;
+    height: 24px;
+  }
+}
