@@ -16,3 +16,13 @@ a {
   float: right;
 }
 
+@media(max-width: 600px){
+  .section-half{
+    width: 100%;
+    float: none;
+  }
+
+  .section-half-right{
+    float: none;
+  }
+}
