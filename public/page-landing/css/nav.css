@@ -26,3 +26,21 @@ nav ul li{
   width: 2px;
   margin: 24px 16px;
 }
+
+@media(max-width: 600px){
+  nav {
+    padding: 16px;
+  }
+
+  nav ul {
+    display: none;
+  }
+  
+  nav ul li {
+    display: none;
+  }
+
+  .separator {
+    display: none;
+  }
+}

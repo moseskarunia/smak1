@@ -9,3 +9,16 @@
   object-fit: contain;
   margin-bottom: 32px;
 }
+
+@media (max-width:600px){
+  .smak1-logo{
+    width: 72px;
+    object-fit: contain;
+  }
+
+  .smak1-logo-small{
+    width: 32px;
+    object-fit: contain;
+    margin-bottom: 32px;
+  }  
+}

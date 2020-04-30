@@ -20,9 +20,6 @@
   text-align: right;
 }
 
-/* .content-enroll{
-} */
-
 .content-left{
   right: 50%;
   left: 64px;
@@ -32,4 +29,34 @@
   left: 50%;
   right: 64px;
   text-align: right;
+}
+
+@media(max-width:600px){
+  .content-left{
+    right: 0;
+    left: 0;
+  }  
+
+  .content-right{
+    right: 0;
+    left: 0;
+    text-align: left;
+  }
+
+  .content-half {
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .content-half-align-right{
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .content{
+    top: 16px;
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+  }
 }

@@ -3,7 +3,6 @@
   flex-direction: column;
   margin-bottom: 16px;
   justify-content: left;
-  
 }
 
 .titlebox-half-right{
@@ -26,4 +25,23 @@
   margin-left: 0;
   margin-right: -64px;
   transform: rotate(90deg);
+}
+
+@media (max-width:600px){
+  .titlebox-full {
+    position: relative;
+    padding-bottom: 16px;
+    margin-left: 0px;
+  }
+
+  .titlebox-full-left {
+    transform: rotate(0deg);
+  }
+
+  .titlebox-full-right{
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    transform: rotate(0);
+  }
 }
