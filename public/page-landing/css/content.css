@@ -37,6 +37,12 @@
     left: 0;
   }  
 
+  .content-right{
+    right: 0;
+    left: 0;
+    text-align: left;
+  }
+
   .content{
     top: 16px;
     left: 16px;
