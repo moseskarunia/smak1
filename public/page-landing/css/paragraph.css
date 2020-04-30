@@ -31,4 +31,8 @@ p.onboarding{
   .new-line {
     display: none;
   }
+
+  .full-left {
+    margin-left: 0;
+  }
 }
