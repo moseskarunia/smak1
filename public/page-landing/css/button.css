@@ -19,6 +19,15 @@ button.small{
 }
 
 @media(max-width:600px){
+  button {
+    padding: 16px 16px;
+    font-size: 1em;
+  }
+
+  button.small {
+    font-size: 0.75em;
+  }
+
   .hamburger-menu-button{
     float: right;
     display: block;
